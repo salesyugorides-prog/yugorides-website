@@ -1,0 +1,5 @@
+# GitHub Pages: publish the static files as-is, keep project notes out of the site
+exclude:
+  - README.md
+  - _backend
+  - scripts
