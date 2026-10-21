@@ -82,4 +82,4 @@ Each enquiry is then added as a row in the sheet and emailed to sales.yugorides@
 
 - Phone numbers: +91 80805 13935 (also WhatsApp) and +91 91753 24002.
 - KYC is completed automatically in the app; maintenance is done by YuGO.
-- Heavy Rider minimum-distance billing is explained face to face, not on the site.
+- Rider plans follow the Franchise Programme 2026 brochure (confirmed 21 Oct 2026): Light Rider ₹1,550/week with 75 km/day included, ₹2/km above 75 km/day; Heavy Rider ₹69/day + ₹1.50/km with a ₹1,550/week minimum.
