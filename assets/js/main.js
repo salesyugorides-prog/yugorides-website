@@ -7,7 +7,7 @@
      (see _backend/franchise-enquiries.gs). While this is empty the form
      stays hidden and visitors see the call / WhatsApp / email options,
      so no enquiry is ever accepted without a real place to send it. */
-  var ENQUIRY_ENDPOINT = '';
+  var ENQUIRY_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwbznWp-YxA2ApKv7KUV-PwnY_KgDlV85xtHZDsFZDi7Grs1-S70ugq9l4Urz3rsncQ/exec';
 
   // Current year in footer
   var yr = document.querySelectorAll('[data-year]');
