@@ -2,6 +2,9 @@
    Layout: wide 1200px container, left-aligned text; hero splits copy / real scooter on a teal disc
    resting on the logo's double rule. Plans are the visual centre of the page. */
 
+@font-face { font-family: "Inter"; src: url("/assets/fonts/inter-var.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Plus Jakarta Sans"; src: url("/assets/fonts/plusjakartasans-var.woff2") format("woff2"); font-weight: 700 800; font-style: normal; font-display: swap; }
+
 :root {
   --teal: #00a6a6;          /* brand turquoise (scooter body, logo) – large shapes only */
   --teal-ink: #00797a;      /* AA-contrast teal for buttons and links on white */
@@ -382,3 +385,19 @@ section { padding-block: clamp(64px, 9vw, 112px); scroll-margin-top: var(--heade
 .fr-teaser-figs b { display: block; font: 800 1.5rem/1.1 var(--display); color: #fff; }
 .fr-teaser-figs span { font-size: .85rem; color: #d5eded; }
 @media (max-width: 480px) { .fr-teaser-figs { grid-template-columns: 1fr; } }
+.card p.sub { display: block; font-weight: 500; color: var(--muted); margin-top: 10px; }
+
+/* Franchise buyer's guide */
+.crumbs { font-size: .9rem; color: var(--muted); margin-bottom: 18px; }
+.crumbs a { color: var(--teal-ink); }
+.guide-lede { max-width: 46em; }
+.guide-p { margin-top: 14px; max-width: 40em; }
+.guide-steps { list-style: none; counter-reset: g; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 28px; }
+.guide-steps li { counter-increment: g; position: relative; padding: 20px 20px 20px 64px; background: #fff; border: 1px solid var(--line); border-radius: 14px; }
+.guide-steps li::before { content: counter(g); position: absolute; left: 20px; top: 18px; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--teal-ink); color: #fff; font-weight: 700; font-size: .95rem; }
+.guide-steps h3 { font-size: 1.15rem; margin-bottom: 6px; }
+.guide-steps p { color: var(--muted); }
+.guide-fit h3 { font-size: 1.1rem; margin-bottom: 12px; }
+.guide-cta { text-align: left; }
+.guide-cta p { margin: 10px 0 20px; }
+@media (max-width: 760px) { .guide-steps { grid-template-columns: 1fr; } }
